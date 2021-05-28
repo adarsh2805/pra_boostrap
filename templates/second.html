@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}
+<title>images</title>
+{% endblock %}
+
+{% block content %}
+    <div>
+        <br><center>
+       <img src="{% static 'images/1.jpg' %}" />
+       <h4>NAME:{{name}}</h4></center>
+    </div>
+    
+{% endblock %}
